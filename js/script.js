@@ -51,7 +51,7 @@ botonEncriptar.addEventListener("click", () => {
     if (texto != "") {
         replace(encriptar(texto));
     } else {
-        swal("Ups", "Debes ingresar algún texto", "warning");
+        swal("Ups!!!", "Debes ingresar algún texto", "warning");
         reset();
     }
 });
@@ -71,7 +71,7 @@ botonDesencriptar.addEventListener("click", () => {
     if (texto != "") {
         replace(desencriptar(texto));
     } else {
-        swal("Ups", "Debes ingresar algún texto", "warning");
+        swal("Ups!!!", "Debes ingresar algún texto", "warning");
         reset();
     }
 });
